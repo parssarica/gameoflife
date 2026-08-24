@@ -23,7 +23,7 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libx11-dev libxrandr-dev libinerama-dev libxcursor-dev libxi-dev
+          sudo apt-get install -y libx11-dev libxrandr-dev libxcursor-dev libxi-dev
 
       - name: Build Project
         run: odin build . -out:gameoflife
